@@ -40,10 +40,11 @@ nav {
 }
 
 .header-main ul {
-    height:100%; 
-    padding-left:40px; 
-    list-style: none;
     display: flex;
+    justify-content: flex-end;
+    padding-left: 0px; /*skubber hovedmenuen til højre */
+    height:100%; 
+    list-style: none;
     align-self: center;
    
 }
@@ -52,8 +53,6 @@ nav {
 .header-main ul li {
     position: relative;
     align-self: center; 
-    
-
 
 }
 
@@ -71,7 +70,7 @@ nav {
     font-size:16px;
     color:#B8A05A; 
     transition: all ease-in-out 200ms;
-    align-self: center; 
+    align-self: right; 
     float: center;
     
 
@@ -112,15 +111,13 @@ nav {
     left: 0px;
     top:100%;
     transition:all ease-in-out 100ms; 
-    
-    
 
 }
 
 .header-main ul li ul li a {
     white-space: nowrap; 
     height:20px; 
-    width:fit-content
+    width:fit-content;
 
 } 
 

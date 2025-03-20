@@ -33,7 +33,7 @@ body {
 .perler-grid {
     display: grid;
     grid-template-columns: repeat(4,1fr); /* 4 items pr. række */
-    /* flex-direction: column; */
+    flex-direction: column;
     gap: 30px; /* mellemrum mellem items */
     align-items: center;
     justify-content: center;
