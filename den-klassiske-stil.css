@@ -1,0 +1,51 @@
+main {
+    background-color: #F7F1E3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Section 1 */
+
+.klassiske-section1 {
+   justify-content: center;
+   text-align: center;
+   margin-top:50px;
+   gap:20px;
+}
+
+.den-klassiske-stil-img {
+    width:700px;
+    height:400px;
+    align-items: center;
+    border-radius: 10px;
+}   
+
+
+/* Section 2 */
+
+.klassiske-section2 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap:30px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+
+
+}
+
+.like-audrey-img {
+    width:300px;
+    height:420px;
+    border-radius: 20px;
+}
+
+.klassiske-section2-text {
+    width:400px;
+    
+}

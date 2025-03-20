@@ -1,0 +1,54 @@
+body {
+
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+
+}
+
+main {
+position: relative;
+margin:0; 
+width: auto;
+margin-top: calc(70px); /* det samme som header height */
+}
+
+h1 {
+    font-family: "Baloo Chettan 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-size:25px;
+    font-style: normal;
+    text-decoration: none;
+    color:#B8A05A; 
+}
+
+h2 {
+    font-family: "Baloo Chettan 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-size:18px;
+    font-style: normal;
+    text-decoration: none;
+    color:#B8A05A; 
+}
+
+
+
+p {
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size:16px;
+        color:#64532C
+      }
+      
+a {
+    text-decoration: none;
+    
+}
+
+a:hoover {
+    text-decoration: underline;
+    cursor: pointer;
+}

@@ -1,0 +1,119 @@
+
+/* body {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    background-color: #F7F1E3;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+} */
+
+
+
+.workshop {
+   background-image: url("images/hands.jpg");
+   opacity: 0.7; /* 70% oppacity */
+   width: 100%;
+   height: 900px;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   background-size: cover; /* cover the whole screen */
+   background-position: center;   
+   
+}
+
+.text-overlay {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.text {
+    margin-top:160px; /* afstand fra top */
+    background-color: rgba(255, 255, 255, 0.8); /* 80% oppacity */
+    padding: 15px 40px; /* top/bottom left/right */
+    border-radius: 20px; 
+    text-align: left;
+    width:320px; /* width of the box */
+    height:360px; /* height of the box */
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 120px;
+    gap: 0px; /* mellemrum mellem items */ 
+}
+
+.container2 {
+    margin-top: 220px;
+}
+
+.hyggeaften-section {
+background-color: #EADFC9; 
+text-align: center;
+padding: 80px 0px; /* top/bottom left/right */
+
+}
+
+.content {
+    text-align: center;
+    max-width: 600px;
+    margin: auto; /*centrer teksten indefor max-width*/
+}
+
+/*sektion med flex container*/
+
+.two-column-section {
+    display: flex;
+    align-items: stretch; /* items fylder hele højden */
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-between; /* items er lige store og fylder hele bredden */
+
+}
+
+li {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size:16px;
+    color:#64532C;
+    text-align: left;
+}
+
+.ul {
+    list-style-type: decimal;
+    padding-left: 50px; 
+    /*  margin: 50px 40px; */
+}
+
+.content2 {
+    display: flex; 
+    flex-direction: column;
+    padding: 20px;
+    width: 50%;
+    text-align: left;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+.cozyroom {
+    width: 88%;
+    height: 100%;
+    overflow: hidden; /* billedet er ikke større end containeren */
+    border-color: #64532C;
+}
+
+.cozyroom img {
+    width: 88%;
+    height: 100%;
+    object-fit: cover; /* billedet fylder hele containeren */
+    margin: auto;
+}
+
