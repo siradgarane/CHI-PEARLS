@@ -41,19 +41,23 @@ nav {
 
 .header-main ul {
     display: flex;
-    justify-content: flex-end;
-    padding-left: 0px; /*skubber hovedmenuen til højre */
     height:100%; 
     list-style: none;
     align-self: center;
    
 }
 
+.header-main a {
+    padding-left: 30px; /* logo rykkes */
+}
+
+.header-main li { 
+    margin-right: 20px;
+}
 
 .header-main ul li {
     position: relative;
     align-self: center; 
-
 }
 
 
