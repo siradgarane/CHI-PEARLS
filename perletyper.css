@@ -17,8 +17,6 @@ body {
     font-style: normal;
     background-color: #F7F1E3;
     text-align: center;
-    margin: 0;
-    padding: 20px;
 }
 
 .perletyper {
@@ -33,7 +31,7 @@ body {
 .perler-grid {
     display: grid;
     grid-template-columns: repeat(4,1fr); /* 4 items pr. række */
-    /* flex-direction: column; */
+    flex-direction: column;
     gap: 30px; /* mellemrum mellem items */
     align-items: center;
     justify-content: center;
