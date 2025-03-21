@@ -73,6 +73,7 @@ main {
 
 .section2-column2 {
     margin: 85px 0px 0px -200px; /* top right bottom left */
+    height: 700px;
 
 }
 
@@ -84,7 +85,8 @@ main {
     justify-content: center;
     align-items: center;
     width:500px;
-    height:200px;
+    height:150px;
+    margin-top: 25px;
     padding: 5px;
 }
 
